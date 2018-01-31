@@ -1,0 +1,28 @@
+{
+  "name": "imgsvg",
+  "version": "0.0.1",
+  "description": "Convert img elements to svg elements if their source is a svg file, to style it css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softberry/imgsvg.git"
+  },
+  "keywords": [
+    "img",
+    "svg",
+    "css"
+  ],
+  "author": "Emre Sakarya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softberry/imgsvg/issues"
+  },
+  "homepage": "https://github.com/softberry/imgsvg#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}

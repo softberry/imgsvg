@@ -1,0 +1,17 @@
+.preview {
+    display: flex;
+}
+
+.preview .image  {
+    width: 25%;
+
+}
+.preview .image  .imgsvg{
+    width: 100%;
+    height: auto;
+
+}
+
+svg.imgsvg {
+    fill: red;
+}
