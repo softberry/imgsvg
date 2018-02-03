@@ -23,6 +23,9 @@
   "homepage": "https://github.com/softberry/imgsvg#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
   }
 }

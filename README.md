@@ -1,11 +1,28 @@
+
+
 # imgsvg
 
-convert img elements with svg source to svg eleemnt.
-´´´<img src="smiley.svg">``` 
-will be converted into 
+include svg images simply in ``<img>`` tag and give it data attribute ``data-imgsvg``. 
+All those elements will be replaced with  ``<svg>``  vector graphics. 
 
-´´´
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" class="imgsvg">
-<path d="M256,64c105.875,0,192,86.125,192,192s-86.125,192-192,192S64,361.875,64,256S150.125,64,256,64 M256,32  C132.281,32,32,132.281,32,256s100.281,224,224,224s224-100.281,224-224S379.719,32,256,32L256,32z M192,144  c-17.688,0-32,21.5-32,48c0,26.531,14.313,48,32,48s32-21.469,32-48C224,165.5,209.688,144,192,144z M320,144  c-17.688,0-32,21.5-32,48c0,26.531,14.313,48,32,48s32-21.469,32-48C352,165.5,337.688,144,320,144z M399.375,292.469  c2.469-8.469-2.406-17.344-10.906-19.844c-8.469-2.531-17.344,2.438-19.844,10.875C354.125,333.25,307.813,368,256,368  s-98.125-34.75-112.641-84.5c-2.469-8.438-11.25-13.406-19.844-10.875c-8.484,2.5-13.344,11.375-10.875,19.844  C131.109,355.781,190.063,400,256,400S380.875,355.781,399.375,292.469z"></path>
-</svg>
-´´´
+## Why imgsvg
+
+**CSS** can animate and style ``svg`` files but they should not be included in ``img`` . 
+With this small utility, you can now include ``svg`` images in ``img`` tags but still can use advantages of **css** .
+
+If you place an image like this : 
+
+``<img src="circle.svg" width ="200" height="200" alt="This is an circle" >`` 
+
+it will be converted into :
+
+	<svg height="100" width="100">
+		<circle cx="50" cy="50" r="40" 
+		stroke="black" stroke-width="3"
+		fill="red" />
+	</svg>
+
+## Advantages
+
+- Place your vector graphics in simpler form but keep using the advantages of nativ behavior of **svg**. 
+- Content Management Systems usually let editors to add images always in ``<img>`` tags. This is not a pitfall anymore. 
