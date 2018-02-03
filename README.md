@@ -26,3 +26,20 @@ it will be converted into :
 
 - Place your vector graphics in simpler form but keep using the advantages of nativ behavior of **svg**. 
 - Content Management Systems usually let editors to add images always in ``<img>`` tags. This is not a pitfall anymore. 
+- ## How to use it:
+
+Download minified snipped from ``dist/imgsvg.min.js`` and serve it with your other files. And simply add in to you ``html`` files.
+
+**PS** Images must  have ``data-imgsvg`` attribute and file suffix must be ``.svg`` .
+		**Sample HTML Page**
+	
+	    <!doctype html>
+		    <html>
+			    <head>
+				    <title>Sample page img2svg</title>
+			    </head>
+			    <body>
+		            <img src="images/sampleimage.svg" alt="A sample image" width="128" height="256">
+		            <script src="imgsvg.min.js"></script>
+	            </body>
+            </html>
