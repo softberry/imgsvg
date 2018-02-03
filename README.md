@@ -31,6 +31,8 @@ it will be converted into :
 Download minified snipped from ``dist/imgsvg.min.js`` and serve it with your other files. And simply add in to you ``html`` files.
 
 **PS** Images must  have ``data-imgsvg`` attribute and file suffix must be ``.svg`` .
+
+
 		**Sample HTML Page**
 	
 	    <!doctype html>
