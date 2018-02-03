@@ -34,6 +34,8 @@ Download minified snipped from ``dist/imgsvg.min.js`` and serve it with your oth
 
 
 		**Sample HTML Page**
+
+        
 	
 	    <!doctype html>
 		    <html>
