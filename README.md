@@ -12,7 +12,7 @@ With this small utility, you can now include ``svg`` images in ``img`` tags but 
 
 If you place an image like this : 
 
-``<img src="circle.svg" width ="200" height="200" alt="This is an circle" >`` 
+``<img src="circle.svg" width ="100" height="100" alt="This is an circle" >`` 
 
 it will be converted into :
 
