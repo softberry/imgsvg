@@ -1,6 +1,6 @@
 {
   "name": "imgsvg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert img elements to svg elements if their source is a svg file, to style it css",
   "main": "index.js",
   "scripts": {
