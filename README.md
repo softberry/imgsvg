@@ -26,11 +26,9 @@ If you place an image like this :
 
 it will be converted into :
 
-	<svg height="100" width="100">
+	<svg height="100" width="100" alt="This is an circle">
 		<circle cx="50" cy="50" r="40" 
 		stroke="black" stroke-width="3"
-		width ="100" 
-		height="100"
 		fill="red" />
 	</svg>
 
